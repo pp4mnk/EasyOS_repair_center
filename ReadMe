@@ -1,0 +1,114 @@
+# EasyOS Repair Center
+
+### by pp4mnk
+
+## Overview
+
+EasyOS Repair Center is an all-in-one maintenance, diagnostics and recovery utility designed for EasyOS.
+
+It provides a collection of one-click tools to diagnose, repair and optimize the most common system problems without requiring advanced Linux knowledge.
+
+The goal of this project is to make EasyOS easier to maintain for both new and experienced users while providing a central place for system troubleshooting.
+
+---
+
+# Features
+
+EasyOS Repair Center includes utilities to:
+
+* Repair web browsers
+* Repair the desktop environment
+* Refresh application menus
+* Rebuild icon caches
+* Repair GTK themes
+* Repair font configuration
+* Restart networking
+* Repair DNS configuration
+* Renew DHCP leases
+* Test Internet connectivity
+* Check filesystem integrity
+* Clean temporary files
+* Repair file permissions
+* Inspect storage devices
+* Display SMART information
+* Restart audio services
+* Diagnose RAM usage
+* Clear caches
+* Generate system reports
+* Run system diagnostics
+* Perform basic maintenance tasks
+
+New repair modules can easily be added in future releases.
+
+---
+
+# Installation
+
+Extract the archive:
+
+```bash
+tar -xzf easyos-repair-center-pp4mnk-v1.x.tar.gz
+cd easyos-repair-center-pp4mnk-v1.x
+chmod +x install.sh
+./install.sh
+```
+
+---
+
+# Launching the application
+
+After installation you can start it from:
+
+**Menu → System → EasyOS Repair Center**
+
+or simply type:
+
+```bash
+easyos-repair-center
+```
+
+from a terminal.
+
+---
+
+# Installation location
+
+The installer copies the program to:
+
+```text
+/usr/local/easyos-repair-center/
+```
+
+and installs the launcher in:
+
+```text
+/usr/local/bin/easyos-repair-center
+```
+
+It also creates a desktop entry so the application appears in the **System**
+ section of the EasyOS menu.
+
+---
+
+# Why this project?
+
+EasyOS includes many excellent utilities distributed throughout the system.
+
+EasyOS Repair Center brings the most useful repair and maintenance operations 
+together into a single, simple interface, making troubleshooting faster and
+ more accessible.
+
+---
+
+# Project status
+
+Current status: **Early development**
+
+This is an evolving project intended to grow over time with additional repair
+ modules, diagnostics and maintenance tools.
+
+Feedback and suggestions are always welcome.
+
+---
+
+Developed by **pp4mnk**
